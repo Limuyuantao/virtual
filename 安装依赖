@@ -1,0 +1,6 @@
+安装依赖
+rosdep install --from-paths ~/limuyuan/ruisenke_ws/src/ --ignore-src -r
+
+rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
+
+
